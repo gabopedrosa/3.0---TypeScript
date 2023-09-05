@@ -71,6 +71,7 @@ var Country = /** @class */ (function () {
     }
     return Country;
 }());
+// Pokemon Ditto
 var pokemonDitto = new Pokemon({
     "id": 132,
     "name": "Ditto",
@@ -95,6 +96,7 @@ var pokemonDitto = new Pokemon({
         }
     ]
 });
+// Filme Guardiões da Galaxia 3
 var filmGuardianOfTheGalaxy3 = new Movie({
     "adult": false,
     "backdrop_path": "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
@@ -110,6 +112,7 @@ var filmGuardianOfTheGalaxy3 = new Movie({
     "vote_average": 8.1,
     "vote_count": 3154
 });
+// Country Brasil
 var countryBrazil = new Country({
     "name": {
         "common": "Brazil",

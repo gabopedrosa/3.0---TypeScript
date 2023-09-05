@@ -119,7 +119,7 @@ class Pokemon {
     }
   }
   
-  
+  // Pokemon Ditto
   let pokemonDitto = new Pokemon({
     "id": 132,
     "name": "Ditto",
@@ -145,6 +145,9 @@ class Pokemon {
     ]
   });
 
+
+
+  // Filme Guardiões da Galaxia 3
   let filmGuardianOfTheGalaxy3 = new Movie({
     "adult": false,
     "backdrop_path": "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
@@ -161,6 +164,11 @@ class Pokemon {
     "vote_count": 3154
   })
 
+
+
+
+
+  // Country Brasil
   let countryBrazil = new Country({
     "name": {
       "common": "Brazil",
@@ -194,6 +202,16 @@ class Pokemon {
     }
   });
   
+
+
+
+
+
+
+
+
+
+
   console.log(pokemonDitto);
   console.log(filmGuardianOfTheGalaxy3);
   console.log(countryBrazil);
